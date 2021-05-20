@@ -18,11 +18,9 @@ pipeline{
 		}
 		stage('Archive') {
 			steps {
-				echo "I am in Archive stage of dev1"
-	
-	}
-
-    }
+				echo "I am in deploy Archive stage of dev1"
+		      }
+		}
+	 }
 
 }
-		
